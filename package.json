@@ -1,0 +1,30 @@
+{
+  "name": "firstangularapp",
+  "version": "1.0.0",
+  "description": "My First Node App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathond/firstangularapp.git"
+  },
+  "keywords": [
+    "First",
+    "Node",
+    "with",
+    "Angular2",
+    "Application"
+  ],
+  "author": "Ibramsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathond/firstangularapp/issues"
+  },
+  "homepage": "https://github.com/bharathond/firstangularapp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3"
+  }
+}
