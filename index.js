@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const port = "1989";
+const port = "8080";
 const path = require('path');
 
 const config = require('./config/connection');
@@ -21,5 +21,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port,() => {
-	console.log("Server Started Listening Post as " + port);
+	console.log("Server Started Listening Port as " + port);
 });
